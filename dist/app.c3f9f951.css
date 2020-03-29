@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+* {
+  outline: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #323232;
+  height: 100vh;
+  width: 100wh;
+  background-image: url("/wave.dd4360d6.svg");
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  overflow: hidden;
+}
+
+.input-wrapper {
+  display: flex;
+  margin: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.validation-result {
+  width: 40px;
+}
+
+.error {
+  color: black;
+  background-color: rgba(250, 128, 114, 0.5);
+}
+
+.correct {
+  color: white;
+  background-color: rgba(50, 205, 50, 0.5);
+}
+
+.validation-image {
+  margin: 0 0.5rem;
+  width: 20px;
+  height: 20px;
+}
+
+.hide {
+  display: none !important;
+}
+
+input {
+  color: white;
+  margin: 0 0.5rem;
+  height: 20px;
+  padding: 0.5rem;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: ease-in-out 0.2s;
+  border-radius: 5px;
+}
+
+label {
+  width: 10rem;
+  margin: 0 0.5rem;
+  color: white;
+}
+
+.log-in {
+  border: none;
+  padding: 0.5rem;
+  background: transparent;
+  border: 1px solid green;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}
+.log-in:disabled {
+  border: 2px solid salmon;
+  background-color: rgba(128, 128, 128, 0.5);
+  cursor: not-allowed;
+}
+
+/*# sourceMappingURL=/app.c3f9f951.css.map */
